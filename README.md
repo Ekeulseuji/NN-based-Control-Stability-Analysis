@@ -1,4 +1,5 @@
-# Fractional-Neural-Lyapunov-Control(FNLC)-and-NN-based-Control-Stability-Analysis
+# Fractional-Neural-Lyapunov-Control (FNLC)
+# with-NN-based-Control-Stability-Analysis
 .
 
 Presents a novel neural network-based approach for designing effective control policies for Caputo-type nonlinear fractional-order systems. The effectiveness of the proposed methodology is demonstrated through simulations on two classical Caputo fractional-order systems, namely the Fractional Van der Pol Oscillator and the Fractional Lotka-Volterra System. It showcases the FNLC method's capability to ensure stability and its potential applicability to a broader range of fractional-order nonlinear systems.
