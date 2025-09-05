@@ -24,7 +24,6 @@ The proposed FNLC method uses a neural network to generate a candidate Lyapunov 
 
 Parameters used in numerical simulation are as follows: Number of nodes for each NN layer ($n\_input$, $n\_hidden$, and $n\_output$); Learning rate for optimizer used in gradient descent ($lr$); Maximum number of learning iterations ($max\_iters$); Length of the input list ($num\_samples$); Constant used in Lyapunov stability conditions ($c$); Radius of a neighborhood around the origin ($\eta$); Radius of a small, closed neighborhood $\mathcal{N} \subset B(\eta)$ ($\epsilon_0$); Tolerable error for $V(0)$ values ($\varepsilon$).  Initial time and the time step length ($t$, $\Delta t$); Number of steps in calculating numerical solutions to the controlled system $num\_steps$. Specific system parameters ($\ell, \gamma_1, \gamma_2, \gamma_3, \gamma_4$).
 
-.
 
 <div align=center>
 <img src="https://github.com/user-attachments/assets/4c27a3da-d9a9-49c3-899e-ed4b9a5958fd"/>
