@@ -1,18 +1,17 @@
 # Fractional-Neural-Lyapunov-Control (FNLC)
 # with-NN-based-Control-Stability-Analysis
-.
 
 Presents a novel neural network-based approach for designing effective control policies for Caputo-type nonlinear fractional-order systems. The effectiveness of the proposed methodology is demonstrated through simulations on two classical Caputo fractional-order systems, namely the Fractional Van der Pol Oscillator and the Fractional Lotka-Volterra System. It showcases the FNLC method's capability to ensure stability and its potential applicability to a broader range of fractional-order nonlinear systems.
 
-.
+==============
 
 **Check The Notebooks** 
 
-FNLC over the Fractional Van der Pol Oscillator $\rightarrow$ [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Ekeulseuji/NN-based-Control-Stability-Analysis/blob/main/FNLC_VanderPolOscillator.ipynb)
+FNLC over the Fractional Van der Pol Oscillator $\rightarrow$ [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/Ekeulseuji/NN-based-Control-Stability-Analysis/blob/main/FNLC_VanderPolOscillator.ipynb)
 
-FNLC over the Fractional Lotka Volterra System $\rightarrow$ [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Ekeulseuji/NN-based-Control-Stability-Analysis/blob/main/FNLC_LotkaVolterraSystem.ipynb)
+FNLC over the Fractional Lotka Volterra System $\rightarrow$ [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/Ekeulseuji/NN-based-Control-Stability-Analysis/blob/main/FNLC_LotkaVolterraSystem.ipynb)
 
-.
+==============
 
 The proposed FNLC method uses a neural network to generate a candidate Lyapunov function for a Caputo fractional-order nonlinear system. The algorithm starts with a one-hidden-layer neural network model that is initialized with a LQR control gain matrix. The neural network then receives a list of random state values and returns a list of values for the Lyapunov function and a gain matrix. If the Lyapunov candidate function satisfies the falsification conditions, then the algorithm terminates, and the current Lyapunov function is considered valid. If not, terms needed for the calculation of loss are computed by a numerical solver, and the tunable parameters of the model are updated through gradient descent. The algorithm then continues to iterate, generating counterexamples by an SMT solver until the falsification conditions are satisfied. The overall framework of the method is demonstrated in Figure 1 of the paper, and Algorithm 2 in the methodology section provides a more detailed explanation of the main algorithm used.
 
