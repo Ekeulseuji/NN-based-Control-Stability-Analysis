@@ -6,7 +6,10 @@ Presents a novel neural network-based approach for designing effective control p
 
 .
 
-**(see the notebooks)**
+**(See The Notebooks)** 
+FNLC over the Fractional Van der Pol Oscillator $\rightarrow$ [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Ekeulseuji/NN-based-Control-Stability-Analysis/blob/main/FNLC_VanderPolOscillator.ipynb)
+
+FNLC over the Fractional Lotka Volterra System $\rightarrow$ [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Ekeulseuji/NN-based-Control-Stability-Analysis/blob/main/FNLC_LotkaVolterraSystem.ipynb)
 
 .
 
